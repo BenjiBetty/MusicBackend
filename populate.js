@@ -3,15 +3,16 @@ import Music from './models/music';
 
 const musics = [{
         title: 'Music1 test',
-        duration: 250,
+        duration: 180000,
         genre: ['Pop', 'Rock'],
+        url: 'https://www.youtube.com/watch?v=VEpMj-tqixs'
     },
     {
         title: 'Music2 test',
-        duration: 350,
+        duration: 180000,
         genre: ['Folk', 'Rock'],
+        url: 'https://www.youtube.com/watch?v=90mzH1kvznQ'
     },
-
 ];
 
 // Connect to MongoDB
